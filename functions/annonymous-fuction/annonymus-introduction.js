@@ -7,5 +7,17 @@ const sum = function(sum1, sum2) {
 
 console.log(sum(7, 4));
 
-
 // The function is stored in a variable and called using that variable:
+
+
+
+
+
+
+// Anonymous functions are often used inside other functions.
+// Example: inside setTimeout():
+
+
+setTimeout(function() {
+	console.log("Executed after 2 seconds");
+}, 2000);
