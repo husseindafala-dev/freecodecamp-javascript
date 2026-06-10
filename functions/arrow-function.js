@@ -1,26 +1,7 @@
-// named function
-
-function greetings(name) {
-console.log(`Hello, ${name}`);
-}
-
-greetings("Melissah");
-
-
-
-
-// anonymous function
-//
-let greetings = function(name) {
-    console.log("Hello, " + name + "!");
-}
-
-greetings("Zeitun");
-
-
-// Arrow function
-let greetings = (name) => {
-	console.log("Hello, " + name + "!");
+const calculateArea = (length, width) => {
+   const area = length * width;
+	return `The area of the rectangle is ${area} square units.`;
 };
 
-greetings("Hudson");
+
+console.log(calculateArea(5, 10));
